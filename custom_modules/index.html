@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no" />
+    <title>Simple Map</title>
+    <link rel="stylesheet" href="http://js.arcgis.com/3.13/esri/css/esri.css">
+    <style>
+      html, body, #map {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      #utilsButton {
+        position: absolute;
+        top: 120px;
+        left: 20px;
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+      }
+    </style>
+    <script>
+      var locationPath = location.pathname.replace(/\/[^/]+$/, "");
+
+      var dojoConfig = {
+        locale: "en",
+        packages: [
+          {
+            name: "modules",
+            location: locationPath + "/modules"
+          }
+          /*{
+           name: "extra",
+           location: locationPath + "/modules/extra"
+           }*/
+        ]
+      };
+
+
+    </script>
+    <script src="http://js.arcgis.com/3.13/"></script>
+    <script>
+      require([
+        "dojo/dom",
+        "dojo/on",
+        "modules/App",
+        "modules/extra/utils",
+        "dojo/domReady!"
+      ], function (dom, on, App, extraUtils){
+
+        var appOptions = {
+          basemap: "topo",
+          center: [-122.45, 37.75], // longitude, latitude
+          zoom: 13
+        };
+        var app = new App("map", appOptions);
+
+        on(dom.byId("utilsButton"), "click", function (event){
+          var geoExtent = extraUtils.getExtent(app.getMap().extent);
+          console.log("geoExtent: ", JSON.stringify(geoExtent));
+
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="map"></div>
+    <input id="utilsButton" type="button" value="Get Geographic Extent" />
+  </body>
+</html>

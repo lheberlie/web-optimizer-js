@@ -1,0 +1,18 @@
+{
+  "name": "create_module_list",
+  "version": "0.0.1",
+  "description": "A sample that shows how to generate a esrijs module list.",
+  "author": "Lloyd Heberlie",
+  "license": "Apache 2.0",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-esrijso-modulelist": "git://github.com/lheberlie/grunt-esrijso-modulelist.git",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1"
+  },
+  "keywords": []
+}
