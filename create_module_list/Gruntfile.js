@@ -43,14 +43,8 @@ module.exports = function (grunt){
       // grunt-contrib-clean
       // ---------------------------------------------------------------------
       clean: {
-        all: {
-          src: ["build", "dist"]
-        },
-        build: {
-          src: ["build"]
-        },
-        dist: {
-          src: ["dist"]
+        jso_modules_list: {
+          src: ["jso_modules"]
         }
       },
       // ---------------------------------------------------------------------
