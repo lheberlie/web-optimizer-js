@@ -15,10 +15,10 @@ minimal builds of the JS API. Other common JavaScript and web application optimi
 
 ## Resources
 
-[ArcGIS API for JavaScript Web Optimizer](http://jso.arcgis.com)
-[Using the Web Optimizer](https://developers.arcgis.com/javascript/jshelp/inside_web_optimizer.html)
-[Editing simple toolbar](http://developers.arcgis.com/javascript/samples/ed_simpletoolbar/)
-[grunt-esrijso-modulelist](https://github.com/lheberlie/grunt-esrijso-modulelist)
+* [ArcGIS API for JavaScript Web Optimizer](http://jso.arcgis.com)
+* [Using the Web Optimizer](https://developers.arcgis.com/javascript/jshelp/inside_web_optimizer.html)
+* [Editing simple toolbar](http://developers.arcgis.com/javascript/samples/ed_simpletoolbar/)
+* [grunt-esrijso-modulelist](https://github.com/lheberlie/grunt-esrijso-modulelist)
 
 [@lheberlie](http://twitter.com/lheberlie)
 
