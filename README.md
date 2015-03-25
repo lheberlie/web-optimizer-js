@@ -26,8 +26,8 @@ minimal builds of the JS API. Other common JavaScript and web application optimi
    * [Generalize](https://ycabon.github.io/ds2015-arcgis-api-for-javascript-the-road-ahead/demos/quantization/counties-generalization.html)
    * [Quantize](https://ycabon.github.io/ds2015-arcgis-api-for-javascript-the-road-ahead/demos/quantization/counties-quantization.html)
 * Generalize and Quantize fun
-* [Generalize](https://ycabon.github.io/ds2015-arcgis-api-for-javascript-the-road-ahead/demos/quantization/TRIANGULATE_ALL_THE_POLYGONS.html)
-* [Quantize](https://ycabon.github.io/ds2015-arcgis-api-for-javascript-the-road-ahead/demos/quantization/PIXELATE_ALL_THE_POLYGONS.html)
+  * [Generalize](https://ycabon.github.io/ds2015-arcgis-api-for-javascript-the-road-ahead/demos/quantization/TRIANGULATE_ALL_THE_POLYGONS.html)
+  * [Quantize](https://ycabon.github.io/ds2015-arcgis-api-for-javascript-the-road-ahead/demos/quantization/PIXELATE_ALL_THE_POLYGONS.html)
 
 [@lheberlie](http://twitter.com/lheberlie)
 
