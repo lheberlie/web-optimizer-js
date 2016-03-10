@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+  <!--
+  Apple-Specific Meta Tag Keys
+  https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html#//apple_ref/doc/uid/TP40008193-SW2
+  -->
+  <!-- // Safari iOS apps only -->
+  <!-- Sets whether a web application runs in full-screen mode -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <!-- Sets the style of the status bar for a web application -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- // Chrome for Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>Map</title>
+  <link rel="stylesheet" href="./3.16/esri/css/esri.css" />
+  <style>
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+    }
+
+    #ui-map {
+      height: 100%;
+    }
+    </style>
+</head>
+
+<body>
+
+<div id="ui-map"></div>
+<script>
+  var lastSlashRegEx = /\/[^\/]*$/i;
+  var dojoConfig = {
+    async: true,
+    deps: [
+      "app/checkDojoConfig",
+      "app/main"
+    ]
+  };
+</script>
+
+<script src="./3.16/dojo/dojo.js" data-dojo-config="async: true"></script>
+
+</body>
+</html>

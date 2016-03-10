@@ -7,8 +7,8 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
     <title>Edit rivers and waterbodies</title>
 
-    <link rel="stylesheet" href="http://js.arcgis.com/3.13/dijit/themes/claro/claro.css">
-    <link rel="stylesheet" href="http://js.arcgis.com/3.13/esri/css/esri.css" />
+    <link rel="stylesheet" href="https://js.arcgis.com/3.16/dijit/themes/claro/claro.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/3.16/esri/css/esri.css" />
     <style>
       html, body {
         height: 100%;
@@ -42,7 +42,7 @@
       }
     </style>
     
-    <script src="http://js.arcgis.com/3.13/"></script>
+    <script src="https://js.arcgis.com/3.16/"></script>
     <script>
       var map;
 
@@ -74,7 +74,7 @@
         esriConfig.defaults.io.proxyUrl = "/proxy/";
 
         //This service is for development and testing purposes only. We recommend that you create your own geometry service for use within your applications. 
-        esriConfig.defaults.geometryService = new GeometryService("http://tasks.arcgisonline.com/ArcGIS/rest/services/Geometry/GeometryServer");
+        esriConfig.defaults.geometryService = new GeometryService("https://tasks.arcgisonline.com/ArcGIS/rest/services/Geometry/GeometryServer");
 
         map = new Map("map", {
           basemap: "satellite",
@@ -86,15 +86,15 @@
         map.on("layers-add-result", initEditor);
 
         //add boundaries and place names 
-        var labels = new ArcGISTiledMapServiceLayer("http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer");
+        var labels = new ArcGISTiledMapServiceLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer");
         map.addLayer(labels);
 
-        var responsePoints = new FeatureLayer("http://sampleserver6.arcgisonline.com/arcgis/rest/services/Wildfire/FeatureServer/0", {
+        var responsePoints = new FeatureLayer("https://sampleserver6.arcgisonline.com/arcgis/rest/services/Wildfire/FeatureServer/0", {
           mode: FeatureLayer.MODE_ONDEMAND,
           outFields: ['*']
         });
 
-        var responsePolys = new FeatureLayer("http://sampleserver6.arcgisonline.com/arcgis/rest/services/Wildfire/FeatureServer/2", {
+        var responsePolys = new FeatureLayer("https://sampleserver6.arcgisonline.com/arcgis/rest/services/Wildfire/FeatureServer/2", {
           mode: FeatureLayer.MODE_ONDEMAND,
           outFields: ['*']
         });
