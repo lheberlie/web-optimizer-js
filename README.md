@@ -17,9 +17,19 @@ minimal builds of the JS API. Other common JavaScript and web application optimi
 
 * [ArcGIS API for JavaScript Web Optimizer](http://jso.arcgis.com)
 * [Using the Web Optimizer](https://developers.arcgis.com/javascript/jshelp/inside_web_optimizer.html)
+* [ArcGIS API 4.x for JavaScript - Using Bower](https://developers.arcgis.com/javascript/latest/guide/using-bower/index.html)
+* [ArcGIS API 3.x for JavaScript - Using Bower](https://developers.arcgis.com/javascript/3/jshelp/inside_bower_custom_builds.html)
 * [Editing simple toolbar](http://developers.arcgis.com/javascript/samples/ed_simpletoolbar/)
-* [grunt-esrijso-modulelist](https://github.com/lheberlie/grunt-esrijso-modulelist)
-* [npm esrijso-modules](https://github.com/odoe/esrijso-modules)
+* [Esri Blog - The ABCs of AMD](https://blogs.esri.com/esri/arcgis/2013/10/14/the-abcs-of-amd/)
+* [Dojo - Creating Builds](http://dojotoolkit.org/documentation/tutorials/1.10/build/index.html)
+* [Esri - Standard Build Module list](https://github.com/lheberlie/web-optimizer-js/blob/master/uploads/example-standard-preset.txt)
+* [Esri - Standard Build Module list](https://github.com/lheberlie/web-optimizer-js/blob/master/uploads/example-compact-preset.txt)
+* [Module list Grunt - grunt-esrijso-modulelist](https://github.com/lheberlie/grunt-esrijso-modulelist)
+* [Module list NPM - npm esrijso-modules](https://github.com/odoe/esrijso-modules)
+* [Esri Github - ArcGIS API 4.x for JavaScript - Bower](https://github.com/Esri/jsapi-resources/tree/master/4.x/bower)
+* [Esri Github - ArcGIS API 3.x for JavaScript - Bower](https://github.com/Esri/jsapi-resources/tree/master/3.x/bower)
+* [Esri Github - ArcGIS API for JavaScript - minified source](https://github.com/Esri/arcgis-js-api)
+
 
 ## Samples
 
