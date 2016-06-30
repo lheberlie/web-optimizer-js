@@ -1,6 +1,6 @@
 # web-optimizer-js
 
-This repository contains resources from the presentations given by Jeremy Bartley, and Lloyd Heberlie during 
+This repository contains resources from the presentations given by Jeremy Bartley, [Rene Rubalcava](http://odoe.net), and Lloyd Heberlie during 
 annual [Esri Developer's Conferences](http://www.esri.com/events/devsummit) 
 and [Esri International User's Conferences](http://www.esri.com/events/user-conference).
 
