@@ -53,7 +53,7 @@ module.exports = function (grunt){
       esrijso_modulelist: {
         generate: {
           options: {
-            basePath: "src/",
+            basePath: "src",
             matchPatterns: ["!*.css", "*.js", "*.html"]
           },
           src: [
