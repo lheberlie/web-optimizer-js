@@ -1,0 +1,13 @@
+dojo/dojo
+dojo/nls/dojo_en
+dojo/selector/acme
+esri/layers/VectorTileLayerImpl
+esri/tasks/GeometryService
+esri/layers/FeatureLayer
+esri/dijit/editing/Editor
+esri/dijit/editing/TemplatePicker
+dojo/parser
+dijit/layout/BorderContainer
+dijit/layout/ContentPane
+dojox/gfx/filters
+dojox/gfx/svgext

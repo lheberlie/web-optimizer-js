@@ -1,0 +1,15 @@
+{
+  "name": "module-detection",
+  "version": "0.0.1",
+  "description": "A node script to help diagnose 404s and create a module list.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lloyd Heberlie <lheberlie@esri.com> (http://lheberlie.github.io/)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "glob": "^7.1.1",
+    "lodash": "^4.17.4"
+  }
+}

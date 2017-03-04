@@ -1,0 +1,29 @@
+
+// Application URLs
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/dijit/layout/BorderContainer.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/dijit/layout/ContentPane.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/dijit/themes/claro/claro.css
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/dojo/dojo.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/dojo/nls/dojo_en.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/dojo/parser.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/dojo/selector/acme.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/dojox/gfx/filters.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/dojox/gfx/svgext.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/esri/css/esri.css
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/esri/dijit/editing/Editor.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/esri/dijit/editing/TemplatePicker.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/esri/layers/FeatureLayer.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/esri/layers/VectorTileLayerImpl.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/esri/tasks/GeometryService.js
+// Broken URLs
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/dijit/layout/BorderContainer.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/dijit/layout/ContentPane.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/dojo/parser.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/dojox/gfx/filters.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/dojox/gfx/svgext.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/esri/dijit/editing/Editor.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/esri/dijit/editing/TemplatePicker.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/esri/layers/FeatureLayer.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/esri/layers/VectorTileLayerImpl.js
+https://heb.esri.com/web-optimizer-js/module-detection/ed_simpletoolbar/3.19/esri/tasks/GeometryService.js
