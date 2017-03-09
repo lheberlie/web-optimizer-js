@@ -1,3 +1,5 @@
+// jshint esversion:6, node:true
+
 let _                        = require("lodash"),
     fs                       = require("fs"),
     path                     = require("path"),
@@ -41,6 +43,7 @@ let _                        = require("lodash"),
  *
  */
 function sortThenNormalizeURLObjects(value){
+  "use strict";
   // sortBy hostname, then path
   let sortedURLs = _.sortBy(value, ["hostname", "path"]);
   let flattenedURLs = sortedURLs.map(function (item){
@@ -56,6 +59,7 @@ let rawHarData = fs.readFileSync(harFile, "utf-8");
 let harData = JSON.parse(rawHarData).log;
 
 harData.entries.forEach(function (harEntry){
+  "use strict";
   let harRequest = harEntry.request;
   let requestURL = harRequest.url;
 
@@ -74,7 +78,7 @@ harData.entries.forEach(function (harEntry){
 
   if (!assetTypeRegEx.test(requestURL)) {
     if (patternMatchModuleInURL.test(requestURL)) {
-      var patternMatch = requestURL.match(patternMatchModuleInURL);
+      let patternMatch = requestURL.match(patternMatchModuleInURL);
 
       if (patternMatch && patternMatch[0]) {
         modulesArrayRaw.push(patternMatch[0]);
@@ -101,12 +105,13 @@ if (brokenURLs.length > 0) {
 }
 
 globFiles.forEach(function (globFile){
-  var inputFile = fs.readFileSync(globFile, "utf-8");
-  var inputFileModulesMatch = inputFile.match(patternMatchModuleInFile);
-  var inputFileModulesMatchClean = inputFileModulesMatch.map(function (item){
+  "use strict";
+  let inputFile = fs.readFileSync(globFile, "utf-8");
+  let inputFileModulesMatch = inputFile.match(patternMatchModuleInFile);
+  let inputFileModulesMatchClean = inputFileModulesMatch.map(function (item){
     return item.replace(/"/g, "");
   });
-  var mergeArrays = inputFileModulesMatchClean.concat(modulesArrayRaw);
+  let mergeArrays = inputFileModulesMatchClean.concat(modulesArrayRaw);
   modulesArrayRaw = mergeArrays;
 });
 
